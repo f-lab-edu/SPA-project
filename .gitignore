@@ -1,0 +1,10 @@
+# Node.js 관련
+node_modules/         
+npm-debug.log       
+                 
+
+# 환경 설정 및 보안 파일
+.env                
+.DS_Store    
+       
+         
