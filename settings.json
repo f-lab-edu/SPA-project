@@ -1,0 +1,11 @@
+{
+    "liveServer.settings.root": "/",
+    "liveServer.settings.port": 8080,
+    "liveServer.settings.rewriteRules": [
+      {
+        "source": ".*",      // 모든 경로에 적용
+        "destination": "/index.html" // 항상 index.html로 리디렉션
+      }
+    ]
+  }
+  
