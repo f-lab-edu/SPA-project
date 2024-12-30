@@ -28,6 +28,7 @@ async function renderPage(route) {
   } else if (route.startsWith('/detail/')) {
     // 상세 페이지
     const id = route.split('/')[2];
+    console.log('id', id);
     const item = await fetchDetailData(id);
     content = `<h3>${item.title}</h3><p>${item.content}</p>`;
   }
