@@ -1,5 +1,7 @@
 export function setNavEvent() {
-  document.addEventListener('click', (e) => {
+  const navbar = document.querySelector('#navbar');
+
+  navbar.addEventListener('click', (e) => {
     if (e.target.tagName === 'A' && e.target.hasAttribute('data-link')) {
       e.preventDefault();
       const url = e.target.getAttribute('href');

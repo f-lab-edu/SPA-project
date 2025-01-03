@@ -1,5 +1,5 @@
-import { setupRouter } from './router.js';
-import { setNavEvent } from './navbar.js';
+import { setupRouter } from './router/router.js';
+import { setNavEvent } from './router/navbar.js';
 
 // 초기화함수
 async function initApp() {
