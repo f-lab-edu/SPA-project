@@ -1,8 +1,8 @@
 [
-  { "id": 1, "category": "develop", "title": "JavaScript 기초" },
-  { "id": 2, "category": "develop", "title": "React Hooks 소개" },
-  { "id": 3, "category": "design", "title": "UI/UX 디자인 가이드" },
-  { "id": 4, "category": "design", "title": "Figma 사용법" },
-  { "id": 5, "category": "develop", "title": "프로젝트 계획 수립" },
-  { "id": 6, "category": "develop", "title": "협업 도구 소개" }
-  ]
+  { "id": 1, "category": "develop", "title": "JavaScript 기초", "content": "자바스크립트 기초 컨텐츠"},
+  { "id": 2, "category": "develop", "title": "React Hooks 소개", "content": "React Hooks 소개" },
+  { "id": 3, "category": "design", "title": "UI/UX 디자인 가이드" , "content": "UI/UX 디자인 가이드"},
+  { "id": 4, "category": "design", "title": "Figma 사용법", "content": "Figma 사용법" },
+  { "id": 5, "category": "develop", "title": "프로젝트 계획 수립", "content": "프로젝트 계획 수립"},
+  { "id": 6, "category": "develop", "title": "협업 도구 소개" , "content": "협업 도구 소개"}
+]
