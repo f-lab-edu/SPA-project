@@ -1,0 +1,11 @@
+{
+    "liveServer.settings.root": "/",
+    "liveServer.settings.port": 8080,
+    "liveServer.settings.rewriteRules": [
+      {
+        "source": ".*",      
+        "destination": "/index.html" 
+      }
+    ]
+  }
+  

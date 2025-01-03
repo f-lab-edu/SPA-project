@@ -1,25 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPA-Project  main</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer type="module"></script>
 </head>
 <body>
-    <!-- 라우팅 history API 기반 라우팅 -->
-    <!-- 상태관리  -->
-    <!-- DOM 조작 및 렌더링   -->
-    <!-- 성능최적화  -->
-    <!-- tab 네비게이션 -->
-     <nav>
-        <a href="/" data-link>전체</a>
-        <a href="/develop" data-link>개발</a>
-        <a href="/design" data-link>디자인</a>
-     </nav>
+    <!-- 안쪽에 app 안에서 만들기 / 고정된걸 해결할수있는방법이있을수도있음 -->
+     <header>
+        <nav id="navbar">
+            <a href="/" data-link>전체</a>
+            <a href="/develop" data-link>개발</a>
+            <a href="/design" data-link>디자인</a>
+        </nav>
+    </header>
      <div id="app">
 
      </div>
-     <script src="./app.js"></script>
 </body>
 </html>
