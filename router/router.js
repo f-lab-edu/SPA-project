@@ -22,7 +22,6 @@ async function renderMainPage() {
 // category
 async function renderCategoryPage(category) {
   const data = await fetchCategoryData(category);
-  console.log(data);
   return `
       <ul>
         ${data.map((item) => `<li><a href="/detail?id=${item.id}" class="router-link">${item.title}</a></li>`).join('')}
