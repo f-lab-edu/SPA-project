@@ -16,17 +16,11 @@ nav a {
   padding: 10px 20px;
   margin-right: 10px;
 }
-
-nav a.active {
-  background: #555;
-  border-radius: 5px;
-}
-
-#app {
+#content {
   padding: 20px;
 }
 
-#app a {
+#content a {
   text-decoration: none;
   color: black;
 }
