@@ -1,5 +1,5 @@
 export async function fetchAllData() {
-  const response = await fetch('/mock/posts.json');
+  const response = await fetch('/staticData/posts.json');
   return await response.json();
 }
 
