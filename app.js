@@ -1,9 +1,12 @@
-import { setupRouter } from './router.js';
-import { setNavEvent } from './navbar.js';
+import { setupRouter, renderNav } from './router/router.js';
+import { setNavEvent } from './nav/setNavEvent.js';
 
 // 초기화함수
 async function initApp() {
   try {
+    const header = document.getElementById('header');
+    header.appendChild(renderNav());
+
     setNavEvent();
     setupRouter();
   } catch (error) {
